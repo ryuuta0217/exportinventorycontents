@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "exportinventorycontents",
+  "version": "${version}",
+  "name": "ExportInventoryContents",
+  "description": "Export player's inventory contents as text file.",
+  "authors": ["ryuuta0217"],
+  "contact": {
+    "repo": "https://github.com/ryuuta/ExportInventoryContents"
+  },
+  "license": "All-Rights-Reserved",
+  "entrypoints": {
+    "main": [
+      "com.ryuuta0217.exportinventorycontents.ExportInventoryContents"
+    ]
+  },
+  "mixins": [
+    "ExportInventoryContents.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ryuuta0217.exportinventorycontents.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinInventory",
+    "MixinMinecraftServer",
+    "MixinPlayerDataStorage"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
